@@ -1,0 +1,34 @@
+{
+    "name": "nikba/directus-api-laravel",
+    "description": "Directus v8.8.1 API Wrapper for Laravel 10.x",
+    "keywords": [
+        "http",
+        "rest",
+        "client",
+        "HTTP client",
+        "directus",
+        "wrapper",
+        "laravel"
+      ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bargan Nicolai",
+            "email": "office@nikba.com",
+            "homepage": "http://www.nikba.com/"
+          }
+    ],
+    "require": {
+        "php": "^7.4|^8.2",
+        "nikba/directus-api": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nikba\\Directus\\Laravel\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+}
