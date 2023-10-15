@@ -29,12 +29,12 @@ class DirectusServiceProvider extends ServiceProvider
             __DIR__ . '/../config/directus.php', 'directus'
         );
 
-        $this->app->singleton(Directus::class, function ($app, $connection = null) {
-            return Directus::getInstance($connection);
+        $this->app->singleton(DirectusLaravel::class, function ($app, $connection = null) {
+            return DirectusLaravel::getInstance($connection);
         });
 
         $this->app->singleton('directus', function ($app, $connection = null) {
-            return Directus::getInstance($connection);
+            return DirectusLaravel::getInstance($connection);
         });
     }
 
@@ -45,7 +45,7 @@ class DirectusServiceProvider extends ServiceProvider
      */
     public function provides()
     {
-        return [Directus::class];
+        return [DirectusLaravel::class];
     }
 
 }

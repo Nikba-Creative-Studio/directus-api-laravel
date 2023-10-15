@@ -1,6 +1,6 @@
 <?php
 
-use Nikba\Directus\Laravel\Directus;
+use Nikba\Directus\Laravel\DirectusLaravel;
 
 if (! function_exists('directus')) {
     function directus(?string $connection = null)

@@ -19,7 +19,7 @@ composer require nikba/directus-api-laravel
 In Laravel, update the `config/app.php` providers array with the Service Provider:
 
 ```php
-nikba\Directus\Laravel\DirectusServiceProvider::class,
+Nikba\Directus\Laravel\DirectusServiceProvider::class,
 ```
 
 ## Configuration
@@ -47,7 +47,7 @@ If none of these authentication options are provided, guest access will be used.
 If you prefer using a configuration file, you can publish the default config by running this command:
 
 ```bash
-php artisan vendor:publish --provider="nikba\Directus\Laravel\DirectusServiceProvider"
+php artisan vendor:publish --provider="Nikba\Directus\Laravel\DirectusServiceProvider"
 ```
 
 This will create a config file at `config/directus.php`.

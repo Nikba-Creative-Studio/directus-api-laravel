@@ -2,10 +2,10 @@
 
 namespace Nikba\Directus\Laravel;
 
-use Nikba\Directus\API;
+use Nikba\Directus\Directus;
 use Illuminate\Support\Arr;
 
-class Directus extends API
+class DirectusLaravel extends Directus
 {
     private static array $instances = [];
 
