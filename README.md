@@ -6,7 +6,7 @@
 
 This package simplifies the consumption of the Directus Headless CMS REST API within Laravel applications.
 
-If you're seeking an API Wrapper for Directus without using Laravel, please refer to [nikba/directus-api](https://github.com/nikba/directus-api).
+If you're seeking an API Wrapper for Directus without using Laravel, please refer to [nikba/directus-api](https://github.com/Nikba-Creative-Studio/directus-api).
 
 ## Installation
 
